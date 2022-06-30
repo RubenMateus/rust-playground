@@ -28,3 +28,4 @@ fn operate(operator: char, first: f32, second: f32) -> f32 {
 fn output(first: f32, operator: char, second: f32, result: f32) -> String {
   return format!("{} {} {} = {}", first, operator, second, result);
 }
+
